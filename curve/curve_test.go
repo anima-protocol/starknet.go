@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/anima-protocol/starknet.go/utils"
 )
 
 // BenchmarkPedersenHash benchmarks the performance of the PedersenHash function.

@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/anima-protocol/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/curve"
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/anima-protocol/starknet.go/curve"
+	"github.com/anima-protocol/starknet.go/utils"
 )
 
 type Keystore interface {

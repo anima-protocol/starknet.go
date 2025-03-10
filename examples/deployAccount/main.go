@@ -7,9 +7,9 @@ import (
 	"os"
 
 	"github.com/anima-protocol/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/account"
-	"github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/anima-protocol/starknet.go/account"
+	"github.com/anima-protocol/starknet.go/rpc"
+	"github.com/anima-protocol/starknet.go/utils"
 	"github.com/joho/godotenv"
 )
 

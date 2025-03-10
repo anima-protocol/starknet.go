@@ -5,7 +5,6 @@ go 1.23.1
 toolchain go1.23.4
 
 require (
-	github.com/NethermindEth/starknet.go v0.7.3
 	github.com/anima-protocol/juno v0.0.0-20250310174627-0d50ae6442da
 	github.com/ethereum/go-ethereum v1.14.8
 	github.com/golang/mock v1.6.0
@@ -37,7 +36,6 @@ require (
 	github.com/tklauser/numcpus v0.7.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	go.uber.org/mock v0.4.0 // indirect
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect

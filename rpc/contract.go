@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/anima-protocol/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/anima-protocol/starknet.go/utils"
 )
 
 // Class retrieves the class information from the Provider with the given hash.

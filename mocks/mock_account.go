@@ -14,7 +14,7 @@ import (
 	time "time"
 
 	felt "github.com/anima-protocol/juno/core/felt"
-	rpc "github.com/NethermindEth/starknet.go/rpc"
+	rpc "github.com/anima-protocol/starknet.go/rpc"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -4,8 +4,6 @@ github.com/Microsoft/go-winio v0.6.2 h1:F2VQgta7ecxGYO8k3ZZz3RS8fVIXVxONVUPlNERo
 github.com/Microsoft/go-winio v0.6.2/go.mod h1:yd8OoFMLzJbo9gZq8j5qaps8bJ9aShtEA8Ipt1oGCvU=
 github.com/NethermindEth/juno v0.12.2 h1:GnQUgqMCA93EO7KROlXI5AdXQ9IBvcDP2PEYFr3fQIY=
 github.com/NethermindEth/juno v0.12.2/go.mod h1:PlxXUUGgzFVRIiSDrLo/jrEtAPUIHpFAylChtoH3wK4=
-github.com/NethermindEth/starknet.go v0.7.3 h1:IM7w+0n/4ftLDTAnHMnJ1veUDq0wb3RGDLUxxWWmdI4=
-github.com/NethermindEth/starknet.go v0.7.3/go.mod h1:qDb22jUUbOT5hWC4mgyuFp5q40JIyHfVo13XIB0OLy4=
 github.com/anima-protocol/juno v0.0.0-20250310174627-0d50ae6442da h1:KsobhypQ+Y4OfGQv1o/7jl9vsIhe+1hbS+upOe49etY=
 github.com/anima-protocol/juno v0.0.0-20250310174627-0d50ae6442da/go.mod h1:ZeqHE9/1wQSFe50tGPNKM/d7MFDqjfN5LsrM/lOJ4Sg=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
@@ -114,8 +112,6 @@ github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcY
 github.com/yuin/goldmark v1.3.5/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1Zlc8k=
 github.com/yusufpapurcu/wmi v1.2.4 h1:zFUKzehAFReQwLys1b/iSMl+JQGSCSjtVqQn9bBrPo0=
 github.com/yusufpapurcu/wmi v1.2.4/go.mod h1:SBZ9tNy3G9/m5Oi98Zks0QjeHVDvuK0qfxQmPyzfmi0=
-go.uber.org/mock v0.4.0 h1:VcM4ZOtdbR4f6VXfiOpwpVJDL6lCReaZ6mw31wqh7KU=
-go.uber.org/mock v0.4.0/go.mod h1:a6FSlNadKUHUa9IP5Vyt1zh4fC7uAwxMutEAscFbkZc=
 go.uber.org/multierr v1.11.0 h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=
 go.uber.org/multierr v1.11.0/go.mod h1:20+QtiLqy0Nd6FdQB9TLXag12DsQkrbs3htMFfDN80Y=
 go.uber.org/zap v1.27.0 h1:aJMhYGrd5QSmlpLMr2MftRKl7t8J8PTZPA732ud/XR8=

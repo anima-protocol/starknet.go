@@ -9,7 +9,7 @@ require (
 	github.com/joho/godotenv v1.4.0
 )
 
-replace github.com/NethermindEth/starknet.go => ../../
+replace github.com/anima-protocol/starknet.go => ../../
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect

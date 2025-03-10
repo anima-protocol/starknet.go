@@ -7,10 +7,10 @@ import (
 
 	"github.com/anima-protocol/juno/core/crypto"
 	"github.com/anima-protocol/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/curve"
-	"github.com/NethermindEth/starknet.go/hash"
-	"github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/anima-protocol/starknet.go/curve"
+	"github.com/anima-protocol/starknet.go/hash"
+	"github.com/anima-protocol/starknet.go/rpc"
+	"github.com/anima-protocol/starknet.go/utils"
 )
 
 var (

@@ -3,7 +3,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/anima-protocol/starknet.go/utils"
 )
 
 // ChainID returns the chain ID for transaction replay protection.

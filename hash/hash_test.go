@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/contracts"
-	"github.com/NethermindEth/starknet.go/hash"
-	"github.com/NethermindEth/starknet.go/rpc"
+	"github.com/anima-protocol/starknet.go/contracts"
+	"github.com/anima-protocol/starknet.go/hash"
+	"github.com/anima-protocol/starknet.go/rpc"
 	"github.com/test-go/testify/require"
 )
 
