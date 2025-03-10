@@ -9,7 +9,7 @@ require (
 )
 
 require (
-	github.com/NethermindEth/juno v0.3.1 // indirect
+	github.com/anima-protocol/juno v0.3.1 // indirect
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/bits-and-blooms/bitset v1.7.0 // indirect
 	github.com/consensys/gnark-crypto v0.11.0 // indirect

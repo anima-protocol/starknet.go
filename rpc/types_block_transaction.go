@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 )
 
 type BlockTransactions []BlockTransaction
@@ -42,6 +42,7 @@ func (tx BlockInvokeTxnV0) Hash() *felt.Felt {
 func (tx BlockInvokeTxnV1) Hash() *felt.Felt {
 	return tx.TransactionHash
 }
+
 // Hash returns the transaction hash of the BlockDeclareTxnV0.
 //
 // Parameters:

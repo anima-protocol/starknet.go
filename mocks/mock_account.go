@@ -13,7 +13,7 @@ import (
 	reflect "reflect"
 	time "time"
 
-	felt "github.com/NethermindEth/juno/core/felt"
+	felt "github.com/anima-protocol/juno/core/felt"
 	rpc "github.com/NethermindEth/starknet.go/rpc"
 	gomock "github.com/golang/mock/gomock"
 )

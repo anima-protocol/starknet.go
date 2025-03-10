@@ -16,8 +16,8 @@ import (
 	"log"
 	"math/big"
 
-	junoCrypto "github.com/NethermindEth/juno/core/crypto"
-	"github.com/NethermindEth/juno/core/felt"
+	junoCrypto "github.com/anima-protocol/juno/core/crypto"
+	"github.com/anima-protocol/juno/core/felt"
 )
 
 var Curve StarkCurve
@@ -71,7 +71,7 @@ type StarkCurvePayload struct {
 //
 // Note: Not all operations require a stark curve initialization including the provided constant points.
 // This function can be used to initialize the curve without the constant points.
-// 
+//
 // Parameters:
 //  none
 // Returns:
@@ -200,7 +200,7 @@ func (sc StarkCurve) ScalarMult(x1, y1 *big.Int, k []byte) (x, y *big.Int) {
 	return x, y
 }
 
-// ScalarBaseMult returns the result of multiplying the base point of the StarkCurve 
+// ScalarBaseMult returns the result of multiplying the base point of the StarkCurve
 // by the given scalar value.
 //
 // Parameters:
@@ -612,7 +612,7 @@ func (sc StarkCurve) PedersenHash(elems []*big.Int) (hash *big.Int, err error) {
 
 // PoseidonArray is a function that takes a variadic number of felt.Felt pointers as parameters and
 // NOTE: This function just wraps the Juno implementation
-// (ref: https://github.com/NethermindEth/juno/blob/main/core/crypto/poseidon_hash.go#L74)
+// (ref: https://github.com/anima-protocol/juno/blob/main/core/crypto/poseidon_hash.go#L74)
 // calls the PoseidonArray function from the junoCrypto package with the provided parameters.
 //
 // Parameters:
@@ -625,7 +625,7 @@ func (sc StarkCurve) PoseidonArray(felts ...*felt.Felt) *felt.Felt {
 
 // StarknetKeccak computes the Starknet Keccak hash of the given byte slice.
 // NOTE: This function just wraps the Juno implementation
-// (ref: https://github.com/NethermindEth/juno/blob/main/core/crypto/keccak.go#L11)
+// (ref: https://github.com/anima-protocol/juno/blob/main/core/crypto/keccak.go#L11)
 //
 // Parameters:
 // - b: The byte slice to hash
@@ -721,8 +721,8 @@ func (sc StarkCurve) GetRandomPrivateKey() (priv *big.Int, err error) {
 
 // PrivateToPoint generates a point on the StarkCurve from a private key.
 //
-// It takes a private key as a parameter and returns the x and y coordinates of 
-// the generated point on the curve. If the private key is not within the range 
+// It takes a private key as a parameter and returns the x and y coordinates of
+// the generated point on the curve. If the private key is not within the range
 // of the curve, it returns an error.
 //
 // Parameters:

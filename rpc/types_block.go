@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 )
 
 var ErrInvalidBlockID = errors.New("invalid blockid")

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 )
 
 // BlockNumber returns the block number of the current block.

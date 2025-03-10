@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/NethermindEth/juno/core/felt"
+import "github.com/anima-protocol/juno/core/felt"
 
 type OrderedEvent struct {
 	// The order of the event within the transaction

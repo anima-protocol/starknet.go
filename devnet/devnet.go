@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 )
 
 type DevNet struct {

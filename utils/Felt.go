@@ -3,7 +3,7 @@ package utils
 import (
 	"math/big"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 )
 
 // Uint64ToFelt generates a new *felt.Felt from a given uint64 number.
@@ -41,15 +41,15 @@ func HexToFelt(hex string) (*felt.Felt, error) {
 // - error: an error if any
 func HexArrToFelt(hexArr []string) ([]*felt.Felt, error) {
 
- feltArr := make([]*felt.Felt, len(hexArr))
- for i, e := range hexArr {
-  felt, err := HexToFelt(e)
-  if err != nil {
-   return nil, err
-  }
-  feltArr[i] = felt
- }
- return feltArr, nil
+	feltArr := make([]*felt.Felt, len(hexArr))
+	for i, e := range hexArr {
+		felt, err := HexToFelt(e)
+		if err != nil {
+			return nil, err
+		}
+		feltArr[i] = felt
+	}
+	return feltArr, nil
 
 }
 

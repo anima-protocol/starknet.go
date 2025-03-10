@@ -3,7 +3,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 	"github.com/test-go/testify/require"
 )
 

@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -73,7 +73,7 @@ func HexToBN(hexString string) *big.Int {
 }
 
 // HexToBytes converts a hexadecimal string to a byte slice.
-// trim "0x" prefix(if exists) 
+// trim "0x" prefix(if exists)
 //
 // Parameters:
 // - hexString: the hexadecimal string to be converted

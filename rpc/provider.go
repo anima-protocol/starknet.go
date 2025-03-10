@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/http/cookiejar"
 
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/felt"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
 	"golang.org/x/net/publicsuffix"
 )

@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/NethermindEth/juno/core/felt"
+import "github.com/anima-protocol/juno/core/felt"
 
 type SimulateTransactionInput struct {
 	//a sequence of transactions to simulate, running each transaction on the state resulting from applying all the previous ones

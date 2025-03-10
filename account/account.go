@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/NethermindEth/juno/core/crypto"
-	"github.com/NethermindEth/juno/core/felt"
+	"github.com/anima-protocol/juno/core/crypto"
+	"github.com/anima-protocol/juno/core/felt"
 	"github.com/NethermindEth/starknet.go/curve"
 	"github.com/NethermindEth/starknet.go/hash"
 	"github.com/NethermindEth/starknet.go/rpc"

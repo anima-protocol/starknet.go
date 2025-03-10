@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/NethermindEth/juno/core/felt"
+import "github.com/anima-protocol/juno/core/felt"
 
 // AddDeclareTransactionResponse provides the output for AddDeclareTransaction.
 type AddDeclareTransactionResponse struct {
