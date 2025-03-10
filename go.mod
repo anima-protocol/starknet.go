@@ -1,4 +1,4 @@
-module github.com/NethermindEth/starknet.go
+module github.com/anima-protocol/starknet.go
 
 go 1.21
 
