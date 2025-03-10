@@ -6,6 +6,8 @@ github.com/NethermindEth/juno v0.12.2 h1:GnQUgqMCA93EO7KROlXI5AdXQ9IBvcDP2PEYFr3
 github.com/NethermindEth/juno v0.12.2/go.mod h1:PlxXUUGgzFVRIiSDrLo/jrEtAPUIHpFAylChtoH3wK4=
 github.com/anima-protocol/juno v0.0.0-20250310174627-0d50ae6442da h1:KsobhypQ+Y4OfGQv1o/7jl9vsIhe+1hbS+upOe49etY=
 github.com/anima-protocol/juno v0.0.0-20250310174627-0d50ae6442da/go.mod h1:ZeqHE9/1wQSFe50tGPNKM/d7MFDqjfN5LsrM/lOJ4Sg=
+github.com/anima-protocol/juno v0.0.0-20250310181002-f7ed83148337 h1:ojnfGb+Mh6TVCLouzMdFiK1mUlp0HBeHBBDyZgsmCH0=
+github.com/anima-protocol/juno v0.0.0-20250310181002-f7ed83148337/go.mod h1:ZeqHE9/1wQSFe50tGPNKM/d7MFDqjfN5LsrM/lOJ4Sg=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
 github.com/bits-and-blooms/bitset v1.14.2 h1:YXVoyPndbdvcEVcseEovVfp0qjJp7S+i5+xgp/Nfbdc=

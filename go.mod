@@ -5,7 +5,7 @@ go 1.23.1
 toolchain go1.23.4
 
 require (
-	github.com/anima-protocol/juno v0.0.0-20250310174627-0d50ae6442da
+	github.com/anima-protocol/juno v0.0.0-20250310181002-f7ed83148337
 	github.com/ethereum/go-ethereum v1.14.8
 	github.com/golang/mock v1.6.0
 	github.com/joho/godotenv v1.4.0
